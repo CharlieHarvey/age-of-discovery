@@ -1,16 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Age of Discovery</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    Age of Discovery
-    Update
+    <header>
+        <h1>Age of Discovery</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Music</a></li>
+                <li><a href="#">Tour</a></li>
+                <li><a href="#">Merchandise</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <p>Age of Discovery is a rock and roll band based in [City, State]. Formed in [Year], the band consists of
+                [Band Members].</p>
+        </section>
+
+        <section id="music">
+            <h2>Music</h2>
+            <ul>
+                <li><a href="#">Album 1</a></li>
+                <li><a href="#">Album 2</a></li>
+                <li><a href="#">Singles</a></li>
+            </ul>
+        </section>
+
+        <section id="tour">
+            <h2>Tour</h2>
+            <ul>
+                <li><a href="#">Upcoming Shows</a></li>
+                <li><a href="#">Past Shows</a></li>
+            </ul>
+        </section>
+
+        <section id="merchandise">
+            <h2>Merchandise</h2>
+            <ul>
+                <li><a href="#">T-Shirts</a></li>
+                <li><a href="#">Hoodies</a></li>
+                <li><a href="#">Posters</a></li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Age of Discovery</p>
+    </footer>
 </body>
 
 </html>
