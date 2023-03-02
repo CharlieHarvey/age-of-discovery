@@ -44,7 +44,7 @@ nav a {
 }
 
 main {
-    max-width: 800px;
+    max-width: 600px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -86,26 +86,28 @@ form input[type="submit"] {
     border-radius: 5px;
     cursor: pointer;
 }
-{
+
+
 .image-container {
-	position: left;
+    position: absolute;
+    left: 0;
 }
 
 .image-container img {
-	display: block;
-	width: 800px;
-	height: auto;
+    display: inline;
+    width: fit-content;
+    height: auto;
 }
 
 .caption {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	background-color: rgba(0, 0, 0, 0.5);
-	color: #fff;
-	padding: 10px;
-	width: 100%;
-	box-sizing: border-box;
-	font-size: 10em;
-	text-align: center;
+    position: bottom;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(10, 8, 1);
+    color: #ffb908;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 3.5em;
+    text-align: center;
 }
