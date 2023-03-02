@@ -95,7 +95,7 @@ form input[type="submit"] {
 
 .image-container img {
     display: inline;
-    width: fit-content;
+    width: 1500px;
     height: auto;
 }
 
