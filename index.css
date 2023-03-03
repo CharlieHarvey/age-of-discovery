@@ -95,7 +95,7 @@ form input[type="submit"] {
 
 .image-container img {
     display: inline;
-    width: 1500px;
+    width: 1000px;
     height: auto;
 }
 
@@ -106,7 +106,7 @@ form input[type="submit"] {
     background-color: rgb(10, 8, 1);
     color: #ffb908;
     padding: 10px;
-    width: 100%;
+    width: 66%;
     box-sizing: border-box;
     font-size: 3.5em;
     text-align: center;

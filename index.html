@@ -1,18 +1,103 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Age of Discovery</title>
-	<link rel="stylesheet" type="text/css" href="index.css">
-</head>
+    <title>Age of Discovery</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Age of Discovery</title>
+        <style>
+            header {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                margin: 20px;
+            }
+
+            nav a {
+                text-decoration: none;
+                color: #ffffff;
+                padding: 10px;
+                border-radius: 5px;
+                background-color: #000000;
+            }
+
+            main {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 20px;
+            }
+
+            section {
+                margin-bottom: 20px;
+                text-align: center;
+            }
+
+            footer {
+                text-align: center;
+                margin-top: 20px;
+            }
+
+            @media only screen and (min-width: 768px) {
+                header {
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+
+                nav {
+                    margin: 0;
+                }
+
+                main {
+                    flex-direction: row;
+                    align-items: flex-start;
+                }
+
+                section {
+                    margin-right: 20px;
+                }
+
+                footer {
+                    margin-top: 0;
+                }
+            }
+        </style>
+    </head>
+
 <body>
-	<header>
-		<h1>Age of Discovery</h1>
-	</header>
-	<main>
-		<div class="image-container">
-			<img src="BAND IMAGE.jpg" alt="Large Image">
-			<div class="caption">SITE UNDERGOING MAINTENANCE! PLEASE CHECKOUT OUR SOCIALS IN THE MEANTIME @AGEOFDISCOVERYOFFICIAL.</div>
-		</div>
-	</main>
+    <header>
+        <h1>Age of Discovery</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="shows.html"">Tour</a></li>
+                <li><a href=" shop.html">Merchandise</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="image-container">
+            <img src="BAND IMAGE.jpg" alt="Large Image">
+            <div class="caption">SITE UNDERGOING MAINTENANCE! PLEASE CHECKOUT OUR SOCIALS IN THE MEANTIME
+                @AGEOFDISCOVERYOFFICIAL.</div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Age of Discovery</p>
+    </footer>
 </body>
+
 </html>
